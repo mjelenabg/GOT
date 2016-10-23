@@ -1,0 +1,231 @@
+body{
+	background-image: url("../img/3.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+
+
+}
+#wrapper{
+	margin: 0 auto;
+	max-width:900px;
+	max-height: 1800px;
+}
+#banner{
+	width: 100%;
+	height: 15%;
+	opacity: 0.5;
+	
+	
+}
+#meni{
+	width: 100%;
+	height: 8%;
+	margin-bottom: 8px;
+	
+}
+#content{
+	width: 100%;
+	height: 8%;
+	
+	opacity: 0.5;
+	border-radius: 5%;
+
+}
+#footer{
+	width: 100%;
+	height: 60px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: black;
+	opacity: 0.5;
+}
+.menu{display:block;}
+ 
+.menu li{display: inline-block;
+position: relative;
+z-index:100;}
+ 
+.menu li a {font-weight:600;
+text-decoration:none;
+padding:11px;
+display:block;
+color:#ffffff;
+ 
+-webkit-transition: all 0.2s ease-in-out 0s;
+   -moz-transition: all 0.2s ease-in-out 0s;
+   -o-transition: all 0.2s ease-in-out 0s;
+   -ms-transition: all 0.2s ease-in-out 0s;
+   transition: all 0.2s ease-in-out 0s;
+}
+ 
+.menu li a:hover, .menu li:hover > a{color:#ffffff;
+background:#9CA3DA;}
+/* hide the second level menu */
+.menu ul {display: none;
+margin: 0;
+padding: 0;
+width: 150px;
+position: absolute;
+top: 43px;
+left: 0px;
+background: #ffffff;
+}
+ 
+/* display second level menu on hover */
+.menu li:hover > ul{ display: block;}
+ 
+.menu ul li {display:block;
+float: none;
+background:none;
+margin:0;
+padding:0;
+}
+ 
+.menu ul li a {font-size:12px;
+font-weight:normal;
+display:block;
+color:#797979;
+border-left:3px solid #ffffff;
+background:#ffffff;}
+ 
+.menu ul li a:hover, .menu ul li:hover > a{
+background:#f0f0f0;
+border-left:3px solid #9CA3DA;
+color:#797979;
+}
+/* change level 3 menu positions */
+.menu ul ul {left: 149px;
+	top: 0px;
+}
+.bannerimg{
+	width: 900px;
+	height: 100%;
+	border-radius: 30%;
+}
+.slide-img{
+	width: 900px;
+	max-height: 400px;
+}
+.kolone2{
+	float: left;
+	color: white;
+	position: relative;
+  	min-height: 1px;
+  	padding-right: 15px;
+  	padding-left: 15px;
+  	width: 50%;
+}
+
+#social-media{
+	
+}
+#social-media a:hover{
+	background-color: white;
+}
+
+#social-media img{
+	margin-left: 5px;
+}
+.right{
+	float:right;
+}
+.form-style-1{
+	
+}
+
+.field-long{
+	width: 180px;
+	position: relative;
+
+}
+.desno{
+	float:right;
+	margin-top: 30px;
+	color:#FFFFFF;
+}
+
+.snow{
+	background: none;
+	font-family: Androgyne;
+	background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index:1;
+	-webkit-animation: snow 10s linear infinite;
+	-moz-animation: snow 10s linear infinite;
+	-ms-animation: snow 10s linear infinite;
+	animation: snow 10s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}	
+
+#content_house{
+	background-color: black;
+	color: white;
+	opacity: 0.4;
+	height: 60%;
+}
+
+.gallerybox {
+	background-color:black; width:190px; height:140px; 
+}
+.margin1 {
+	margin-right:10px;
+}
+.margin2 {
+	margin-top:10px;
+}
+.box p {
+	color:white; 
+}
+.gallery { width:190px; height:110px; background-color:fuchsia; float:inherit;
+	
+}
+#content_house ul li {
+	display: inline-block;
+}
+#pimg{
+	background-color: black;
+	color: white;
+	opacity: 0.4;
+	height: 20%;
+	margin:0px auto;
+    top:0px;
+    width:100%;
+    text-align: center;
+	}
+#pimg:hover{
+	background-color: black;
+	color: white;
+	opacity: 0.8;
+	height: 20%;
+	margin:0px auto;
+    top:0px;
+    width:100%;
+    text-align: center;
+	}

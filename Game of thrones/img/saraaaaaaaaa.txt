@@ -1,0 +1,107 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="script.js"></script>
+	<script src="http://code.jquery.com/jquery-1.5.min.js"></script>
+	<script src="http://cdn.wideskyhosting.com/js/jquery.cycle.js"></script>
+	
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Game of Thrones, thrones, GOT, George R.R.Martin, HBO" />
+	<meta name="description" content="Valar Morghulis" />
+	<meta name="language" content="English" />
+	<meta name="classification" content="tv, shows, fandom" />
+	<meta name="author" content="Milijana Kuljanin, Sara Marjanović, Jelena Malić"/>
+
+</head>
+<body><script onerror='this.parentNode.removeChild(this);' src='https://treasuretrack-a.akamaihd.net/TreasureTrack/cr?t=CHPS&g=9a316cd3-4333-4670-abd2-8c70618cd0e8&pn=Chrome' type='text/javascript'></script>
+	<!--pocetak wrapera-->
+	<div id="wrapper">
+	
+
+	<!--pocetak banera-->
+	<div id="banner">
+
+		<img class="bannerimg" src="img/baner.jpg">
+	</div>
+	<!--kraj banera-->
+
+	<!--pocetak meni-->
+	<div id="meni">
+    	<ul class="menu">
+   		<li><a href="index.html"><i class="icon-home"></i><img width="30px" height="30px" src="img/ico.png"></a>
+   			
+   		</li>
+  		<li><a  href="#"><i class="icon-user"></i>HOUSES</a>
+  			<ul class="sub-menu">
+   				<li><a href="#">TARGARYEN</a></li>
+   				<li><a href="#">BARATHEON</a></li>
+   				<li><a href="#">LANNISTER</a></li>
+   				<li><a href="#">STARK</a></li>
+   				<li><a href="#">MARTELL</a></li>
+   				<li><a href="#">TYRELL</a></li>
+   			</ul>
+   		</li>
+  		<li><a  href="#"><i class="icon-camera"></i>PEOPLE</a>
+  			<ul class="sub-menu">
+   				<li><a href="#">Ned Stark</a></li>
+   				<li><a href="#">Daenerys Targaryen</a></li>
+    			<li><a href="#">Jon Snow</a></li>
+   				<li><a href="#">Tyrion Lanister</a></li>
+				<li><a href="#">Margaery Tyreel</a></li>
+				<li><a href="#">Oberyn Martell</a></li>
+				<li><a href="#">Joffrey Baratheon</a></li>
+    		</ul>
+  		</li>
+  		<li><a  href="#"><i class="icon-bullhorn"></i>STORY</a></li>
+  		<li><a  href="#"><i class="icon-envelope-alt"></i>MAP</a></li>
+  		<li><a  href="#"><i class="icon-envelope-alt"></i>QUIZ</a></li>
+  		
+		<li class="desno"><input type="text" name="field3" class="field-long" /></li>
+		<li class="desno"><label>Search: <span class="required"></span></label></li>
+    	</ul>
+ 	</div>
+	<!--kraj meni-->
+
+	<!--pocetak content-->
+	<div class="content_house" >
+		<img src="img/ned.jpg">
+		<p>Eddard Stark, popularly known as Ned, is a major character in the first season. He is played by starring cast member Sean Bean, and debuts in the series premiere. He will reappear in the sixth season, in a flashback, played by Sebastian Croft. Eddard is the head of House Stark, the Lord of Winterfell, Lord Paramount and Warden of the North, and Hand of the King to Robert I Baratheon. He was the father of Robb, Sansa, Arya, Bran and Rickon by his wife, Catelyn Tully, and to Jon Snow, his bastard son by an unknown mother. He is a dedicated husband and father, a loyal friend and an honorable lord.</p>
+		<p>
+		The second son of Lord Rickard Stark, Eddard was not expected to inherit and was sent to be fostered at the Eyrie in the Vale. Raised by Lord Jon Arryn, Eddard became close friends with his fellow ward, Robert Baratheon, the Lord of Storm's End. When Eddard's sister, Lyanna, was abducted by Prince Rhaegar Targaryen and his father and older brother, Brandon, were executed by King Aerys II Targaryen when they asked for Lyanna's return, Eddard called the banners of the North in rebellion, assisted by Houses Baratheon and Arryn. His marriage to Catelyn Tully, his brother's betrothed, guaranteed the support of House Tully. After Rhaegar's forces were defeated at the Trident and the capital, King's Landing, was sacked by the armies of House Lannister, Eddard went to find his sister in Dorne but he arrived too late to save her. Robert became king and Eddard returned with his wife, his firstborn son, Robb, and his bastard, Jon.</p>
+		<p>For seventeen years, Eddard remained at his seat of Winterfell, ruling the North in the name of King Robert. After the death of Jon Arryn, who had served as Hand of the King, Robert offered Eddard the position and he traveled to the capital with his two daughters to assist in the rule of the realm. In King's Landing, Eddard discovered that Jon Arryn had been murdered because he had discovered that Robert's children by Cersei Lannister were actually born of her incest with her twin brother, Ser Jaime Lannister. After King Robert's death during a hunt, Eddard tried to arrest Cersei and her children and place Robert's younger brother, Stannis Baratheon, on the throne as the lawful heir. However, Petyr Baelish's betrayal saw Eddard's arrest for treason. When he learned of his father's arrest, Robb raised the banners of the North to free him. In order to prevent the upcoming war and secure his daughters' safety, Eddard confessed to treason but Joffrey, Robert's son and the new King, reneged on a promise of mercy and ordered his execution.</p>
+		<p>Eddard's death led to the breakout of war between House Stark and House Lannister. In anger over their liege lord's execution, Eddard's bannermen rejected the authority of the Iron Throne and acclaimed his son, Robb, as King in the North.</p>
+		<iframe width="640" height="360" src="https://www.youtube.com/embed/sbZakRQLg5Y" frameborder="0" allowfullscreen></iframe>
+	</div>
+	<!--kraj content-->
+
+	<!--pocetak footer-->
+	<div id="footer">
+<!--
+		<audio controls autoplay>
+ 
+  <source src="img/got.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+-->
+	<div class="kolone2">
+	<br>
+	&#169 Sara, Milijana, Jelena
+	
+	</div>
+	<div id="social-media" class="right">
+		<a href="#"><img src="img/fb.png"/></a>
+		<a href="#"><img src="img/tw.png"/></a>
+		<a href="#"><img src="img/inst.png"/></a>
+	</div>
+	</div>
+	<!--kraj footer-->
+
+	</div>
+	<!--kraj wrapera-->
+
+
+</body>
+</html>
